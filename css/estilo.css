@@ -34,7 +34,7 @@
     height: 80px;
 }
 
-.ubicacion, .mediospago, .redes, .newsletter {
+.ubicacion, .mediospago, .redes, .newsletter, .subtitulo, .formulario {
 	background-image: url(../assets/img/bg.jpg);
 }
 
@@ -61,6 +61,15 @@
 	color: black;
 }
 
+.formulario-items {
+	color: #B0F2DA;
+}
+
+.formulario-items input:hover, .formulario-items textarea:hover {
+	border: 3px solid lightblue;
+	border-radius: 0.25rem;
+}
+
 @media only screen and (max-width: 768px) {
 	.header-nav ul {
 		justify-content: space-evenly;
@@ -70,7 +79,7 @@
 		padding-bottom: 15px;
 	}
 
-	.card-body h3 {
+	.card-body h3, .subtitulo {
 		flex-wrap: wrap;
 		text-align: center;
 	}
